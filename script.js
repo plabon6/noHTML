@@ -27,7 +27,7 @@ for (const l of document.getElementsByTagName('li')) {
 let fontChange = document.getElementsByTagName('head')
 
 for (const myFont of fontChange) {
-myFont.innerHTML = "<link><link><link><link>";
+myFont.innerHTML = "<link><link><link><link><title>No HTML</title>";
 }
 
 let myLink = document.getElementsByTagName('link');
