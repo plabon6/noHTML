@@ -27,7 +27,7 @@ for (const l of document.getElementsByTagName('li')) {
 let fontChange = document.getElementsByTagName('head')
 
 for (const myFont of fontChange) {
-myFont.innerHTML = "<link><link><link>";
+myFont.innerHTML = "<link><link><link><link>";
 }
 
 let myLink = document.getElementsByTagName('link');
@@ -38,4 +38,7 @@ myLink[1].setAttribute("href", "https://fonts.gstatic.com");
 myLink[1].setAttribute("crossorigin", "");
 myLink[2].setAttribute("href", "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 myLink[2].setAttribute("rel", "stylesheet");
+myLink[3].setAttribute("rel", "shortcut icon");
+myLink[3].setAttribute("href", "./Assets/stopSign.png");
+myLink[3].setAttribute("type", "image/x-icon");
 
